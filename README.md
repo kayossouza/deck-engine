@@ -50,7 +50,7 @@ Crie um arquivo em `scenes/` e adicione uma linha `<script src="scenes/seu-arqui
 
 ```js
 DECK.register({
-  id: "S5",                      // identificador curto; usado em ?scene= e na tecla G
+  id: "S5",                      // identificador curto, sempre em maiúsculas; usado em ?scene= e na tecla G
   section: "Arquitetura",        // texto do selo no canto superior esquerdo (opcional)
   title: "Como o pedido chega ao banco",
   message: "Uma frase que resume a cena.",
@@ -94,7 +94,7 @@ O motor não cria nem remove elementos durante a navegação. Tudo existe no DOM
 | `gone-k` | some a partir da etapa `k` |
 | `hl-k` | destaque com a cor de acento só na etapa `k` (em `.node`, `.wire`, `.wlabel`, `.panel`, `.ln`) |
 | `hlge-k` | o mesmo destaque, da etapa `k` em diante |
-| `ok-k`, `warn-k`, `fail-k` | cor de estado da etapa `k` em diante (em `.node`, `.panel`, `.wire`) |
+| `ok-k`, `warn-k`, `fail-k` | cor de estado da etapa `k` em diante (em `.node`, `.panel` e `.wire`) |
 | `draw at-k` | num `<path pathLength="1">`: a linha é desenhada na etapa `k` |
 | `flow-k` | num `<path>`: um pulso de luz percorre o caminho uma vez ao chegar na etapa `k` |
 | `focus-k` | na etapa `k`, esse elemento fica em destaque e o resto da cena esmaece |
@@ -157,7 +157,7 @@ Variáveis opcionais:
 - `OUT=apresentacao.pdf` para mudar o arquivo de saída;
 - `MODE=final` para gerar só o estado final de cada cena (uma página por cena), bom para compartilhar depois da palestra.
 
-Na tela, `?print=1` e `?print=final` mostram as mesmas páginas.
+Para conferir antes de exportar, abra `?print=1` ou `?print=final` no navegador: a tela mostra exatamente as páginas que vão para o PDF.
 
 ## Trocar o tema
 

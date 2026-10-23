@@ -34,6 +34,7 @@
       r.push(`.ge-${n} .warn-${n}.node{background:var(--warn-2);border-color:var(--warn)}`);
       r.push(`.ge-${n} .fail-${n}.node{background:var(--fail-2);border-color:var(--fail)}`);
       r.push(`.ge-${n} .ok-${n}.wire{stroke:var(--ok)}`);
+      r.push(`.ge-${n} .warn-${n}.wire{stroke:var(--warn)}`);
       r.push(`.ge-${n} .fail-${n}.wire{stroke:var(--fail)}`);
       r.push(`.ge-${n} .ok-${n}.panel{border-color:var(--ok);background:var(--ok-2)}`);
       r.push(`.ge-${n} .warn-${n}.panel{border-color:var(--warn);background:var(--warn-2)}`);
