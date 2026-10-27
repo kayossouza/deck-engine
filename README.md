@@ -1,5 +1,7 @@
 # deck-engine
 
+![deck-engine](docs/cover.jpg)
+
 Se o deck-engine te ajudar, deixe uma ⭐ no repositório: é o que faz ele chegar em mais gente.
 
 **Veja rodando:** [deck.kinho.dev](https://deck.kinho.dev), a aula do Dojo sobre CV (tecla `P` abre a visão do apresentador). Exemplo básico: [deck.kinho.dev/examples/basico](https://deck.kinho.dev/examples/basico/).
