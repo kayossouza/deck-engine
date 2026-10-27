@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>deck-engine: exemplo básico</title>
+<link rel="stylesheet" href="../../deck.css">
+</head>
+<body>
+<!-- Shared SVG defs: arrow markers for diagram wires. Colours follow the theme tokens. -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" style="fill: var(--ink-2)"/></marker>
+    <marker id="arr-accent" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" style="fill: var(--accent)"/></marker>
+  </defs>
+</svg>
+<div id="stage"><div id="canvas" aria-live="polite"></div></div>
+<script src="../../deck.js"></script>
+<!-- Scenes, in presentation order. One file per scene; each calls DECK.register({...}). -->
+<script src="scenes/01-cover.js"></script>
+<script src="scenes/02-steps.js"></script>
+<script src="scenes/03-diagram.js"></script>
+<script src="scenes/04-code.js"></script>
+</body>
+</html>

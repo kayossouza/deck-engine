@@ -1,6 +1,8 @@
 # deck-engine
 
-**Veja rodando:** [deck.kinho.dev](https://deck.kinho.dev) (tecla `P` abre a visão do apresentador).
+Se o deck-engine te ajudar, deixe uma ⭐ no repositório: é o que faz ele chegar em mais gente.
+
+**Veja rodando:** [deck.kinho.dev](https://deck.kinho.dev), a aula do Dojo sobre CV (tecla `P` abre a visão do apresentador). Exemplo básico: [deck.kinho.dev/examples/basico](https://deck.kinho.dev/examples/basico/).
 
 Motor de apresentações em HTML, CSS e JavaScript puro. Sem build, sem framework, sem dependência de rede. Você escreve cada cena num arquivo `.js`, define quantas etapas ela tem e usa classes CSS para dizer o que aparece em cada etapa.
 
@@ -11,7 +13,8 @@ O que vem pronto:
 - modo de impressão e exportação para PDF (uma página por etapa);
 - atalhos de teclado, tela preta, tela cheia, replay da etapa, visão geral e movimento reduzido;
 - um tema neutro controlado por variáveis CSS, fácil de trocar;
-- um deck de exemplo com 4 cenas.
+- um deck real como exemplo: a aula "Como uma empresa de fora lê o seu CV", do Dojo da [mentoria do Kayo](https://kinho.dev/pt-BR/mentoria), em `scenes/`;
+- um exemplo básico com 4 cenas que mostra cada recurso (etapas, diagrama animado, código), em `examples/basico/`.
 
 ## Rodar
 
