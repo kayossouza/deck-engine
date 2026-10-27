@@ -1,5 +1,7 @@
 # deck-engine
 
+**Veja rodando:** [deck.kinho.dev](https://deck.kinho.dev) (tecla `P` abre a visão do apresentador).
+
 Motor de apresentações em HTML, CSS e JavaScript puro. Sem build, sem framework, sem dependência de rede. Você escreve cada cena num arquivo `.js`, define quantas etapas ela tem e usa classes CSS para dizer o que aparece em cada etapa.
 
 O que vem pronto:
